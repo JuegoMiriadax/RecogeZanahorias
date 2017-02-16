@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/juego.css" />
+		<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16">
+		<link rel="manifest" href="img/favicon/manifest.json">
+		<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="theme-color" content="#ffffff">		
+        <title>RECOGE ZANAHORIAS</title>
+    </head>
+    <body>
+			<div class="header">
+				<img src="img/rabbitfinal.png" width="30" style="margin:4px 0px"><p>
+				<span class="titulo">RECOGE ZANAHORIAS</span>
+			</div>
+			<div id='game' heigth=100%></div>
+				<script type="text/javascript" src="cordova.js"></script>
+				<script type="text/javascript" src="js/phaser.min.js"></script>
+				<script type="text/javascript" src="js/juego.js"></script>
+			<div class="footer">
+					<script type="text/javascript">
+						copyright=new Date();
+						update=copyright.getFullYear();
+						document.write("Todos los derechos Reservados" + " © 2016 - " + update + "");
+					</script>
+			</div>
+	</body>
+</html>

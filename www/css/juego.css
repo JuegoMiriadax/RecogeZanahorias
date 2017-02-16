@@ -1,0 +1,36 @@
+body{
+  background-color: #120021;
+  margin: 0px;
+  padding: 10px 0;
+    font-size: 12px;
+    font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+}
+
+.header{
+  padding: 0 5px;
+  color: #666;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.footer {
+  padding: 5px;
+  color: #666;
+  font-style: italic;
+  font-size: small;
+  text-align: center;
+}
+
+.titulo{
+  font-style: italic;
+}
+
+#game{
+  position: relative;
+  width:100%;
+  height: 100%;
+  margin-top: 5px;
+  display: block;
+}
